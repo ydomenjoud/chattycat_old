@@ -5,6 +5,7 @@
   "main": "build.ts",
   "scripts": {
     "dev": "npx nodemon -e js,pug,sass build.js",
+    "build": "tsc && node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
